@@ -1,0 +1,5 @@
+pymongo>=4.18,<5
+fastapi>=0.136,<1
+uvicorn>=0.49,<1
+argon2-cffi>=21.3,<26
+httpx>=0.27,<1

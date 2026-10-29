@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#244c40">
+  <title>问卷工坊 · 让每个问题都有回响</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/answers.css">
+  <script defer src="/assets/answers.js"></script>
+  <link rel="stylesheet" href="/assets/library.css">
+  <script defer src="/assets/library.js"></script>
+  <script defer src="/assets/app.js"></script>
+</head>
+<body>
+  <div id="app"><div class="loading">正在打开问卷工坊…</div></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="confirm-dialog">
+    <h2 id="confirm-title"></h2><p id="confirm-description"></p>
+    <div class="dialog-actions"><button id="confirm-cancel" class="button secondary">取消</button><button id="confirm-ok" class="button primary">确定</button></div>
+  </dialog>
+</body>
+</html>
